@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Object</title>
+</head>
+<body>
+    <button id="my-button">click Me</button>
+    <script>
+        //let product = {
+        //    company:'apple',
+        //    price:65,
+        //    item_name:'Mobile phone',
+        //}
+        //console.log(product)
+        //console.log(product["item_name"])
+        //console.log(product.company)
+        //console.log(product.price)
+        //product.company='mango'
+        //console.log(product)
+        //delete product.company
+        //console.log(product)
+        //let product = {
+        //    company:'apple',
+        //    price:65,
+        //    item_name:'Mobile phone',
+        //    displayprice: function() {
+        //        console.log(`price of the product is ${product.price}`)
+        //    }
+        //}
+        //product.displayprice()
+        //Automatic conversion of primitive to object
+        //Allows properties and method to be used on primative 
+        //example string have properties and method like length,toUppercase
+        //console.log('Thise is navin vidyarthi'.toLocaleUpperCase())
+        //object references
+        //object work based on reference not actual value.
+        //copying an object copies the reference not the actual object
+        //when you comparing with == your comparing references not content
+        //change to one reference affect aii copies
+        //let a=6
+        //let b=a
+        //console.log(`a=${a},b=${b}`);
+        //a=94
+        //console.log(`a=${a},b=${b}`)
+      
+        //let product = {
+        //    company:'apple',
+        //    price:65,
+        //    item_name:'Mobile phone',
+        //    }
+        //    let company=product.company
+//        let alarm=function(){
+//            console.log('good morning to all of you.')
+//
+//        }
+//        setTimeout(alarm,3000);
+//        console.log('navin vidyarthi')
+//        let alar=()=> console.log(`good night.${new Date()}`)
+//         let intervalId = setInterval(alar,50)
+//         setTimeout(()=>clearInterval(intervalId),5000)
+        //   let buttonElement = document.querySelector('#my-button')
+        //   buttonElement.addEventListener('click',event => console.log('I am navin vidyarthi'))
+        //   let print= event =>console.log(new Date())
+        //   buttonElement.addEventListener('click',print)
+//             let arr=[2,34,4,4,57,8,9]
+//             for(let i=0; i<arr.length; i++){
+//                console.log(arr[i])
+//             }
+//             arr.forEach(function(num){
+//                console.log(num)
+//
+//             })
+//             function search(arr,num){
+//                for(let i=0; i<arr.length; i++){
+//                    if (arr[i]===num){
+//                        console.log(`element found at:${i}`);
+//                        return
+//                    }
+//                
+//                }
+//                console.log('Element was not found')
+//             }
+//             search(arr,57)
+            //  let arr=[3,4,6,78,9,5,4]
+            //  let odd=arr.filter((num,index)=>{
+            //    if (num%2===1){
+            //        return false
+            //    }else{
+            //         return true
+            //    }
+            //  })
+            //  let newodd=arr.filter((num,index)=> num%2===1)
+            //  console.log(odd)
+            //  console.log(newodd)
+            let arr=[1,2,4,3,5];
+            let squares= arr.map(num => num*num);
+            console.log(squares)
+
+
+
+
+
+
+
+
+
+    </script>
+    
+</body>
+</html>

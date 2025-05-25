@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function determineDriveStatus() {
+          let age=34;
+
+          if (age === undefined) {
+            return "Aap Avtaar hain";
+          }
+          console.log('checking drive status');
+
+          if (age>18) {
+            return 'you can drive';
+            
+          } else {
+            return 'use a Bicycle';
+
+          }
+        }
+        console.log(determineDriveStatus())
+        function sum(a,b){
+            let sum=a*b
+            return sum
+        }
+        console.log(sum(4,6))
+        function greeting(name='Pyaare') {
+            console.log(`Namaste ${name} Uncle`)
+        }
+        greeting()
+
+        function num(a) {
+            let rem=a%2;
+            let num=rem==1;
+            
+            return num;
+        }
+        console.log(`given num is odd = ${num(6)}`)
+        function larger(a,b){
+            if (a>b){
+                return a;
+
+            } else{
+                return b
+            }
+
+        }
+        console.log(larger(34,17))
+        function toFahrenheit(c){
+            return 9/5*c +32;
+        }
+        console.log(toFahrenheit(67))
+    </script>
+    
+</body>
+</html>
+
